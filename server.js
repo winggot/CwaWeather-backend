@@ -42,7 +42,7 @@ const getKaohsiungWeather = async (req, res) => {
       }
     );
 
-    // 取得高雄市的天氣資料
+    // 取得桃園市的天氣資料
     const locationData = response.data.records.location[0];
 
     if (!locationData) {
